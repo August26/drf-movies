@@ -13,7 +13,6 @@ class MovieSerializer(serializers.ModelSerializer):
 
 
 class CitiesSerializer(serializers.ModelSerializer):
-    cityfilms = serializers.RelatedField(many=True)
 
     class Meta:
         model = Cities
