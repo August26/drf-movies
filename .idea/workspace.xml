@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d143c1e6-345f-4016-9b96-7f91db0965e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/app/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/movieapi/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/movieapi/migrations/0002_remove_movie_photo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/movieapi/migrations/0003_movie_photo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/movieapi/migrations/0004_remove_movie_photo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/movieapi/migrations/0005_movie_photo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/movieapi/migrations/0006_remove_movie_photo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/movieapi/migrations/0007_movie_photo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/movieapi/migrations/0008_cities_films_info_presentation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/movieapi/migrations/0009_auto_20200204_1411.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/movieapi/migrations/0010_auto_20200204_1444.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/movieapi/migrations/0011_auto_20200204_1448.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/movieapi/migrations/0012_auto_20200204_1450.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/movieapi/migrations/0013_auto_20200204_1451.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/movieapi/migrations/0014_auto_20200204_1456.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/movieapi/migrations/0015_auto_20200204_1505.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/movieapi/migrations/0016_auto_20200204_1515.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/movieapi/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/movieapi/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/movieapi/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/movieapi/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app/router.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -63,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/movieapi/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="505">
+              <caret line="68" column="80" selection-start-line="68" selection-start-column="80" selection-end-line="68" selection-end-column="80" />
               <folding>
                 <element signature="e#63#1097#0" />
                 <element signature="e#774#890#0" />
@@ -166,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1104" />
     <option name="y" value="22" />
     <option name="width" value="817" />
@@ -351,12 +331,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.50643086" visible="true" weight="0.11327714" />
       <window_info id="Structure" order="2" sideWeight="0.49356914" side_tool="true" weight="0.103793465" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.21668473" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.21668473" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -627,24 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/movieapi/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding>
-            <element signature="e#63#1097#0" />
-            <element signature="e#774#890#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/movieapi/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -671,6 +632,24 @@
           <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/movieapi/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="68" column="80" selection-start-line="68" selection-start-column="80" selection-end-line="68" selection-end-column="80" />
+          <folding>
+            <element signature="e#63#1097#0" />
+            <element signature="e#774#890#0" />
           </folding>
         </state>
       </provider>

@@ -39,7 +39,7 @@ class Films(models.Model):
     title = models.CharField(blank=True, max_length=100)
     id_film = models.IntegerField(blank=True, default=0)
     photo = models.CharField(blank=True, max_length=500)
-    city_films = models.ForeignKey(Cities, on_delete=models.CASCADE, default='')
+    city_films = models.ForeignKey(Cities, on_delete=models.CASCADE)
 
     def __str__(self):
         return self.title
@@ -48,7 +48,7 @@ class Films(models.Model):
 class Presentation(models.Model):
 
     data_session = models.CharField(blank=True, max_length=15)
-    film_presentation = models.ForeignKey(Films, on_delete=models.CASCADE, default='')
+    film_presentation = models.ForeignKey(Films, on_delete=models.CASCADE)
 
     def __str__(self):
         return self.data_session
@@ -66,7 +66,7 @@ class Info(models.Model):
     session = models.CharField(max_length=4, choices=Session, default='2D')
     time_session = models.CharField(blank=True, max_length=100)
     price = models.IntegerField(blank=True, default=0)
-    presentation_info = models.ForeignKey(Presentation, on_delete=models.CASCADE, default='')
+    presentation_info = models.ForeignKey(Presentation, on_delete=models.CASCADE)
 
     def __str__(self):
         return self.place
