@@ -1,6 +1,6 @@
 from django.forms import ModelChoiceField
 from rest_framework import serializers
-from .models import Movie, Cities, Films, Info, Presentation
+from .models import Movie, City, Film, Info, Presentation
 
 
 class MovieSerializer(serializers.ModelSerializer):
@@ -15,30 +15,26 @@ class MovieSerializer(serializers.ModelSerializer):
 class CitiesSerializer(serializers.ModelSerializer):
 
     class Meta:
-        model = Cities
-        fields = ('city', )
-        depth = 3
+        model = City
+        fields = ('id', 'city', 'cookie', 'films')
 
 
 class FilmsSerializer(serializers.ModelSerializer):
 
     class Meta:
-        model = Films
-        fields = ('title', 'id_film', 'photo', 'city_films')
-        depth = 3
+        model = Film
+        fields = ('id', 'title', 'id_film', 'photo', 'city_film', 'presentations')
 
 
 class PresentationSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Presentation
-        fields = ('data_session', 'film_presentation')
-        depth = 3
+        fields = ('id', 'data_session', 'film_presentations', 'informations')
 
 
 class InfoSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Info
-        fields = ('place', 'address', 'session', 'time_session', 'price', 'presentation_info')
-        depth = 3
+        fields = ('place', 'address', 'session', 'time_session', 'price', 'info_presen')

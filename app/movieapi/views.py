@@ -1,7 +1,7 @@
 from rest_framework import viewsets
 from . import serializers
 from rest_framework import filters
-from .models import Movie, Cities, Films, Info, Presentation
+from .models import Movie, City, Film, Info, Presentation
 import django_filters.rest_framework
 from custom_permisions import IsAnonCreate
 
@@ -18,14 +18,14 @@ class MovieView(viewsets.ModelViewSet):
 
 
 class CitiesView(viewsets.ModelViewSet):
-    queryset = Cities.objects.all()
+    queryset = City.objects.all()
     serializer_class = serializers.CitiesSerializer
     permission_classes = (IsAnonCreate, )
     filter_backends = [filters.SearchFilter, django_filters.rest_framework.DjangoFilterBackend, filters.OrderingFilter]
 
 
 class FilmsView(viewsets.ModelViewSet):
-    queryset = Films.objects.all()
+    queryset = Film.objects.all()
     serializer_class = serializers.FilmsSerializer
     permission_classes = (IsAnonCreate,)
     filter_backends = [filters.SearchFilter, django_filters.rest_framework.DjangoFilterBackend, filters.OrderingFilter]
@@ -36,6 +36,8 @@ class InfoView(viewsets.ModelViewSet):
     serializer_class = serializers.InfoSerializer
     permission_classes = (IsAnonCreate, )
     filter_backends = [filters.SearchFilter, django_filters.rest_framework.DjangoFilterBackend, filters.OrderingFilter]
+    filterset_fields = ['info_presen']
+    ordering_fields = ['price', 'session', 'time_session']
 
 
 class PresentationView(viewsets.ModelViewSet):
